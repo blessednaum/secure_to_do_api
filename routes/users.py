@@ -66,7 +66,7 @@ def login():
  
  #generate token
  payload= {
-    "user_name": user.username,
+    "user_id": user.user_id,
      "exp": datetime.datetime.utcnow() + datetime.timedelta(hours=1)
 
  }
